@@ -1,0 +1,28 @@
+.inputs{
+    background-color: burlywood;
+}
+
+.input2{
+    background-color: cadetblue;
+}
+
+.bts{
+    background-color: coral;
+}
+
+h1{
+    color: coral;
+}
+
+input{
+ border:1px solid #cccccc;
+ padding: 8px;
+}
+
+button{
+cursor: pointer;
+border: 1px solid #888888;
+background:darkturquoise;
+color:black;
+padding: 8px;
+}
