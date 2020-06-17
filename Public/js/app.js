@@ -30,6 +30,7 @@ Weatherss.addEventListener('submit',(e)=>{
     if(data.error)
     {
        return FirstMsg.textContent=data.error;
+       console.log("Error");
         // return console.log('Error binding data'+error);
     }
      
