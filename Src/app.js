@@ -31,9 +31,9 @@ hbs.registerPartials(partialhs);
 // })
 
 
-app.get('/',(req,res)=>{
+app.get('',(req,res)=>{
     var da='dates'
-    res.render('index',{
+    res.render('/index',{
         title:'Weather'+da,
         Name:'Rk'
     })
