@@ -23,7 +23,7 @@ Weatherss.addEventListener('submit',(e)=>{
     return FirstMsg.textContent='Error in Loading Weather....'
     }
     FirstMsg.textContent='Loading Weather Data............'
-    fetch('http://localhost:3000/Weather?search='+locas).then((response) =>{
+    fetch('/Weather?search='+locas).then((response) =>{
         response.json().then((data)=>{
     
     
