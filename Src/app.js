@@ -5,10 +5,10 @@ const hbs=require('hbs')
 const geocode=require('./utils/geocode')
 const forecast=require('./utils/forecast')
 
-const  Port=process.env.PORT || 3000;
+
 
 var app=express();
-
+const  Port=process.env.PORT || 3000;
 
 
 
